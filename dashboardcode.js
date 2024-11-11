@@ -1,8 +1,6 @@
-function MediaWikiStats(){
-    /*
-    Welcome to MediaWikiStats    
-    */
-    const wikiSite = "http://appropedia.org/"; 
+function ProjectDashboard(){
+
+    const wikiSite = "https://www.appropedia.org/"; 
     let excludeBots = true; //gonna make this toggleable
     let showTimestamps, showPageEditCount, showUserPagesEditedCount = true;
     let currentCat = "";
@@ -349,6 +347,6 @@ function MediaWikiStats(){
 }
 
 window.onload = function() {
-    const dashboard = new MediaWikiStats();
+    const dashboard = new ProjectDashboard();
     if (dashboard.currentCat!="") dashboard.setLinkToInput(); //if category put in from url, go
 }
