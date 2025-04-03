@@ -1,2 +1,3 @@
-# project-dashboard
-Category-based dashboard for projects
+# Project Dashboard
+
+Category-based dashboard for projects on Appropedia.
